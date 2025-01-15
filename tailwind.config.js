@@ -15,6 +15,7 @@ export default {
       height: {
         'hero': '780px', 
         'hero-cel': '480px', 
+        'banner-h': '1000px', 
       },
     },
   },

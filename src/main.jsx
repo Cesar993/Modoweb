@@ -5,7 +5,8 @@ import './index.css'
 
 import FrontEnd from './pages/FrontEnd.jsx'
 import Home from './pages/Home.jsx'
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 const router = createBrowserRouter(
