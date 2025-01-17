@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'custom-page': '#EDECE9', 
+        'custom-footer': '#242321', 
       },
       fontSize: {
         'custom-nav': '15px', 

@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Nav from './Nav'
 import Carrusel from '../components/Carrusel'
 import Baner from '../components/Baner'
+import Footer from '../components/Footer'
 
 const FrontEnd = () => {
   return (
@@ -12,7 +13,7 @@ const FrontEnd = () => {
         <Outlet/>
         <Carrusel />
         <Baner/>
-        <footer className='h-auto bg-custom-page'>Soy un Footer</footer>
+        <Footer/>
     </div>
     </>
   )
