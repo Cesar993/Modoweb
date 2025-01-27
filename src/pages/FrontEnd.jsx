@@ -4,6 +4,9 @@ import Nav from './Nav'
 import Carrusel from '../components/Carrusel'
 import Baner from '../components/Baner'
 import Footer from '../components/Footer'
+import Solu from '../components/Solu'
+import MidImg from '../components/MidImg'
+import AboutUs from '../components/AboutUs'
 
 const FrontEnd = () => {
   return (
@@ -13,6 +16,9 @@ const FrontEnd = () => {
         <Outlet/>
         <Carrusel />
         <Baner/>
+        <AboutUs/>
+        <Solu/>
+        <MidImg/>
         <Footer/>
     </div>
     </>

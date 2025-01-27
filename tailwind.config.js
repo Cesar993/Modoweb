@@ -19,6 +19,11 @@ export default {
         'hero-cel': '480px', 
         'banner-h': '1000px', 
       },
+      width: {
+        'mid': '462px', 
+        'midImg': '923px', 
+        
+      },
     },
   },
   plugins: [],

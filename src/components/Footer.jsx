@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='bg-slate-500 h-full w-1/5 '>
               <div className='pb-4'>
                 <h1 className='text-custom-input pb-2'>Enquire</h1>
-                <p>info@molohouse.com</p>
+                <p>info@modohouse.com</p>
                 <p>+39 335 6385532</p>
               </div>
               <div >
@@ -45,11 +45,11 @@ const Footer = () => {
         </div>
         <div className='bg-orange-500 h-56  ml-5 mr-5 flex gap-2 pb-10'>
           <div className='w-2/3  bg-zinc-500 '>
-            <img className='w-5/6  items-center' src="https://cdn.prod.website-files.com/66f6bb2a752e9f87ba2eb126/6703c8cf28eb3be687babfd8_logo-molo--large.svg" alt="" />
+            <img className='w-5/6  items-center' src="img/modo.svg" alt="" />
           </div>
           <div className='w-1/6 bg-zinc-500 content-end text-center'>© 2025</div>
           <div className='w-2/3 bg-zinc-500 justify-end flex flex-col gap-4'>
-            <div className='bg-gray-400 w-96'>
+            <div className='bg-gray-400 md:w-96'>
               Sign up for the latest updates on new collections,
               design insights, and exclusive invitations.</div>
             <div className='flex bg-slate-800 justify-center gap-2 '>

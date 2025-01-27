@@ -73,7 +73,7 @@ const Nav = () => {
           <button className='text-2xl bg-slate-400 w-12' onClick={toggleMenu}>{menuOpen ? '✖' : '☰'}</button>
           <img
             className="h-10 object-contain   w-96 mr-9"
-            src="https://cdn.prod.website-files.com/66f6bb2a752e9f87ba2eb126/66f6c8c392e2f15d8a29ff5a_logo-molo--dark.svg"
+            src="/img/navModo.svg"            
             alt="Logo"
           />
         </div>
@@ -94,7 +94,7 @@ const Nav = () => {
 
 
         <div className=' bg-orange-200 w-full  justify-center h-5 hidden md:flex '>
-          <img src="https://cdn.prod.website-files.com/66f6bb2a752e9f87ba2eb126/66f6c8c392e2f15d8a29ff5a_logo-molo--dark.svg" alt="" />
+          <img src="/img/navModo.svg" alt="" />
         </div>
         <div className='bg-orange-200 w-full  justify-end gap-10 hidden md:flex '>
           <a href="">Contact</a>
