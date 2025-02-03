@@ -41,23 +41,24 @@ const Carrusel = () => {
   };
 
   return (
-    <div className="slider-container ml-1 mr-7 pt-20">
-      <h1 className='pb-9 font-medium'>Our Products</h1>
+    <div className="slider-container ml-1 mr-7 pt-20 ">
+      <h1 className='ml-4 pb-9 font-medium '>Our Products</h1>
       <Slider {...settings}>
         {datosCarr.map((item) => (
           <div
             key={item.id}
-            className="bg-neutral-700 h-84 flex-shrink-0 "
+            className=" h-84 flex-shrink-0 p-1 "
           >
             <div
               className="
                 h-60 
                 w-full 
                 ml-4
+                
               "
             >
               <img
-                className="object-cover h-full w-full"
+                className="object-cover h-full w-full "
                 src={item.img}
                 alt=""
               />

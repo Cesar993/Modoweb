@@ -22,6 +22,7 @@ export default {
       width: {
         'mid': '462px', 
         'midImg': '923px', 
+        'midTx': '1219px', 
         
       },
     },

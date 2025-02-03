@@ -64,13 +64,14 @@ const Nav = () => {
     font-medium 
     md:text-custom-nav
     text-2xl
-    bg-transparent
+    
+    bg-custom-page
     transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'
           }`}
       >
         {/* Botón para dispositivos móviles */}
         <div className='flex justify-center  pt-5 w-full md:hidden '>
-          <button className='text-2xl bg-slate-400 w-12' onClick={toggleMenu}>{menuOpen ? '✖' : '☰'}</button>
+          <button className='text-2xl  w-12' onClick={toggleMenu}>{menuOpen ? '✖' : '☰'}</button>
           <img
             className="h-10 object-contain   w-96 mr-9"
             src="/img/navModo.svg"            
@@ -80,7 +81,7 @@ const Nav = () => {
 
         {/* Contenido del menú */}
         <div
-          className={`w-full flex-col md:flex md:flex-row items-center gap-6 mt-3 md:mt-0 ${menuOpen ? 'flex' : 'hidden'
+          className={` w-full flex-col md:flex md:flex-row items-center gap-6 mt-3 md:mt-0 ${menuOpen ? 'flex' : 'hidden'
             }`}
         >
           {/* Menú izquierdo */}
@@ -93,10 +94,10 @@ const Nav = () => {
         </div>
 
 
-        <div className=' bg-orange-200 w-full  justify-center h-5 hidden md:flex '>
+        <div className='  w-full  justify-center h-5 hidden md:flex '>
           <img src="/img/navModo.svg" alt="" />
         </div>
-        <div className='bg-orange-200 w-full  justify-end gap-10 hidden md:flex '>
+        <div className=' w-full  justify-end gap-10 hidden md:flex '>
           <a href="">Contact</a>
           <a href="">EN</a>
         </div>
